@@ -30,8 +30,8 @@
 }
 
 
-.about-company{
-    display:grid;
+.about-company {
+    display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fill, 100%);
 }
@@ -52,7 +52,7 @@
     justify-content: center;
     padding: 20px;
     background-repeat: no-repeat;
-    max-height: 500px;
+    width: 100%;
 
 }
 
@@ -153,13 +153,17 @@
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     color: antiquewhite;
     height: 150px;
+    grid-gap: 30px;
+    
 }
 
 .detail-items {
     color: aliceblue;
     font-size: 20px;
     font-weight: 800;
+    flex: 1;
 }
